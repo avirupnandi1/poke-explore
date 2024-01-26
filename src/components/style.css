@@ -1,0 +1,66 @@
+*{
+ padding:0;
+ margin:0;
+}
+
+
+body{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 47%, rgba(45,45,210,1) 73%, rgba(147,225,241,1) 100%);
+}
+.container{
+    width:90%;
+    margin:auto;
+    padding-top: 100px;
+    display: flex;
+
+}
+.left-content,.right-content{
+    flex-basis: 50%;
+}
+
+h2 {
+    position: static;
+    margin: 10px;
+  }
+
+
+
+.left-content{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap: 0.5 rem;
+}
+.card {
+    width: 200px;
+    padding: 0 1.5rem;
+    background-color: azure;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 1rem; /* Add spacing between elements */
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 20px;
+  
+    /* Optional: Add hover effect */
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .card-content {
+    display: flex; /* Allow flexible layout within content */
+    flex-direction: column; /* Stack elements vertically within content */
+    align-items: center; /* Center elements horizontally */
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Center image horizontally within content */
+  }
+  

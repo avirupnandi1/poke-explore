@@ -2,16 +2,16 @@ import React from 'react'
 
 const Card=()=>{
     return (
-        <>
-        <div className="card">
-        <h2>1</h2>
-        <img src='./images/pika.jpg' alt='/'/>
-        <h2>Pikachu</h2>
-        </div>
-      
-       
+        <>     
+          <div className="card">
+            <div className="card-content"> 
+              <h1>1</h1>
+              <img src='./images/pika.jpg' alt='Pikachu' />
+              <h2>Pikachu</h2>
+            </div>
+          </div>
     
-        </>
+      </>
     )
 }
 export default Card;

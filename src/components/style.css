@@ -34,7 +34,7 @@ h2 {
 .card {
     width: 200px;
     padding: 0 1.5rem;
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
     border-radius: 1rem;
     display: flex;
     flex-direction: column; /* Stack elements vertically */
@@ -48,7 +48,8 @@ h2 {
   
     /* Optional: Add hover effect */
     &:hover {
-      transform: scale(1.05);
+      transform: scale(1.15);
+      color: rgb(62, 62, 255);
     }
   }
   
@@ -62,5 +63,38 @@ h2 {
     max-width: 100%;
     height: auto;
     margin: 0 auto; /* Center image horizontally within content */
+  }
+  /* style.css */
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+  
+  }
+  
+  button {
+    background-color: #3498db;
+
+    color: #fff;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+    align-items: center;
+
+
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+    transform: scale(1.15);
+    /* Darker blue on hover */
   }
   

@@ -68,7 +68,7 @@ h2 {
   .right-content{
     width: 50%;
     text-align: center;
-    color: black;
+    color: rgb(234, 242, 240);
     position: fixed;
     top:100px;
     right: 10px;
@@ -120,7 +120,7 @@ h2 {
 }
   
   button:hover {
-    background-color: #2980b9;
+    background-color: #9d5c61;
     transform: scale(1.15);
     /* Darker blue on hover */
   }

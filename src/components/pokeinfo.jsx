@@ -40,4 +40,7 @@ const Pokeinfo = ({ data }) => {
         </>
     )
 }
+
+
 export default Pokeinfo
+

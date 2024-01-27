@@ -58,7 +58,7 @@ const Main=()=>{
                </div>
            </div>
            <div className="right-content">
-              {/* <Pokeinfo data={pokeDex}/> */}
+              <Pokeinfo data={pokeDex}/>
            </div>
        </div>
    </>
